@@ -13,3 +13,7 @@
 + [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
+
+## Description
+  
+<p>Involves setting up a website that can fetch news data via an API from a news database and display the data on the web pages.</p>
