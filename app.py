@@ -9,7 +9,7 @@ def main():
     
     newsapi = NewsApiClient(api_key=api_key)
 
-    top_headlines = newsapi.get_top_headlines(sources = "usa-today")
+    top_headlines = newsapi.get_top_headlines(sources = "usa-today,bbc-news,the-verge")
     articles = newsapi.get_everything(sources = "usa-today" )
 
     t_articles = top_headlines['articles']
