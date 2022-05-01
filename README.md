@@ -41,3 +41,13 @@ and for SSH, use the following command;
 ```
 git clone git@github.com:BrianJomo/News-Hub.git
 ```
+
+## Technology Used
+
+* Python - Which was used to structure and build the logic hence interactive with the client-side and server-side.
+
+## Reference
+
+* PEP 8 – Style Guide for Python.
+* NEWSAPI Documentation.
+* Materialize CSS.
