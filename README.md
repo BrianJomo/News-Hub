@@ -46,6 +46,11 @@ git clone git@github.com:BrianJomo/News-Hub.git
 
 * Python - Which was used to structure and build the logic hence interactive with the client-side and server-side.
 
+* HTML - which was used to build the structure of the web pages.
+
+* CSS - which was used to style the web pages.
+
+
 ## Reference
 
 * PEP 8 – Style Guide for Python.
