@@ -17,7 +17,7 @@
 
 ## Description
   
-<p>Involves setting up a website that can fetch news data via an API from a news database and display the data on the web pages.</p>
+<p>Involves setting up a website that can fetch news data via an API, from a news database and display the data on the web application pages. It is conveniently usable on a desktop to deliver the top news headlines and up-to-date stories.</p>
 
 
 ## Installation
@@ -41,6 +41,8 @@ and for SSH, use the following command;
 ```
 git clone git@github.com:BrianJomo/News-Hub.git
 ```
+
+To explore the features of this news website navigate to this link on your browser or just click on this link: https://news-hub1.herokuapp.com/
 
 ## Technology Used
 
