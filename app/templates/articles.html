@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+{%block title%}
+{{title}}
+{%endblock%}
+{%block content%}
+
+<div class="row mx-auto d-flex justify-content-center bg-dark">
+    <h3 class="pt-3 pb-3 mt-3 text-center"style="background-color: red;">TODAY'S HEADLINES</h3>
+    {%for article in articles%}
+    <div class="card col-md-6 m-3 p-2" style="width: 20rem;">
+        <img src="{{article.urlToImage}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h6 class="card-title text-primary"><strong>{{article.title}}</strong></h6>
+            <p class="card-text mt-3">{{article.description}}</p>
+            <p class="card-text mt-3">{{article.content}}</p>
+            <p class="card-text mt-3 ">By: {{article.author}}</p>
+            <p class="card-text mt-3 text-success">Published on: {{article.publishedAt}} </p>
+            <p href="#" class="btn mt-1">
+                <a href="{{article.url}}" class="readmore p-2">READ MORE</a>
+            </p>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}

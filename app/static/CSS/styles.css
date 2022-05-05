@@ -1,0 +1,25 @@
+.content{
+   background-color:#282828;
+}
+
+.navbar{
+    color: white;
+}
+.readmore{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+.view_articles{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    
+}
+
+.image{
+    width: 100%;
+    height: 60%;
+    
+}
+

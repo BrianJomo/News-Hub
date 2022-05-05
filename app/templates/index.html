@@ -1,0 +1,29 @@
+{%extends 'base.html'%}
+{%block title%}
+{{title}}
+{%endblock%}
+{%block content%}
+
+
+        <div class="col-md-15 mt- p-" style="margin-top: 0%;margin-bottom: auto;" >
+            <img class="w-100" src="{{url_for('static',filename='images/Break.jpg')}}" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="row mx-auto d-flex justify-content-center bg-dark">
+    <h3 class="pt-3 pb-3 md- mt- text-center" style="background-color: red;" >TODAY'S TOP SOURCES</h3>
+    {%for n in news%}
+    <div class="card col-md-6 m-3 p-2" style="width: 20rem;">
+        <div class="card-body">
+            <h6 class="card-title text-primary"><strong>{{n.name}}</strong></h6>
+            <p class="card-text mt-3">{{n.description}}</p>
+            <p class="card-text mt-3">{{n.category}}</p>
+            <p href="#" class="btn mt-1">
+                <a href="{{n.url}}" class="view_articles p-2">READ MORE</a>
+            </p>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}

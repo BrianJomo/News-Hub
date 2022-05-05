@@ -41,6 +41,15 @@ and for SSH, use the following command;
 ```
 git clone git@github.com:BrianJomo/News-Hub.git
 ```
+Then run the following commands in the terminal then run the manage.py file in order to run the web application.
+
+```
+python3.8 -m venv --without-pip virtual
+
+source virtual/bin/activate
+
+```
+
 To gain access to the newsapi just click on this link: https://newsapi.org/
 
 To explore the features of this news website navigate to this link on your browser or just click on this link: https://news-hub1.herokuapp.com/
@@ -53,6 +62,9 @@ To explore the features of this news website navigate to this link on your brows
 
 * CSS - which was used to style the web pages.
 
+* Bootsrap - which was also used to style the web pages.
+
+* Flask - Which made creating web applications in Python easier.
 
 ## Reference
 
