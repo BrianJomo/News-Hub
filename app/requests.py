@@ -4,7 +4,7 @@ from app import models
 from .models import Source, Article
 
 
-api_key="bae92cf05a9742b291bf04eb42833550"
+api_key="41b531bece4940e5a4ec917c9e0f7351"
 source_url="https://newsapi.org/v2/top-headlines/sources?apiKey={}"
 articles_url="https://newsapi.org/v2/top-headlines?country=us&apiKey={}"
 
