@@ -44,13 +44,13 @@ git clone git@github.com:BrianJomo/News-Hub.git
 Then run the following commands in the terminal then run the manage.py file in order to run the web application.
 
 ```
-python3.8 -m venv --without-pip virtual
+$ python3.8 -m venv --without-pip virtual
 
-source virtual/bin/activate
+$ source virtual/bin/activate
 
-curl https://bootstrap.pypa.io/get-pip.py | python
+$ curl https://bootstrap.pypa.io/get-pip.py | python
 
- pip install flask
+$ pip install flask
 
 ```
 
