@@ -54,7 +54,7 @@ $ pip install flask
 
 ```
 
-To gain access to the newsapi just click on this link: https://newsapi.org/
+To gain access to the news API just click on this link: https://newsapi.org/
 
 To explore the features of this news website navigate to this link on your browser or just click on this link: https://newshub2.herokuapp.com/
 
